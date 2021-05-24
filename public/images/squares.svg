@@ -1,0 +1,20 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="600">
+<rect x="3.05176e-05" width="600" height="600" rx="300" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<rect x="3.05176e-05" width="600" height="600" rx="300" fill="white"/>
+<rect x="150" y="600" width="300" height="300" transform="rotate(-90 150 600)" fill="#4664EA"/>
+<rect x="300" y="300" width="150" height="150" transform="rotate(-90 300 300)" fill="#FAD250"/>
+<rect x="3.05176e-05" y="600" width="150" height="150" transform="rotate(-90 3.05176e-05 600)" fill="#FF87A0"/>
+<rect x="225" y="300" width="75" height="75" transform="rotate(-90 225 300)" fill="#FF87A0"/>
+<rect x="75" y="450" width="75" height="75" transform="rotate(-90 75 450)" fill="#1EBEE6"/>
+<rect x="262.5" y="225" width="37.5" height="37.5" transform="rotate(-90 262.5 225)" fill="#82DCA0"/>
+<rect x="350" y="70" width="50" height="80" fill="#1EBEE6"/>
+<path d="M400 70L374 61V150H400V70Z" fill="#1EBEE6"/>
+<path d="M400 70L374 61V150H400V70Z" fill="white" fill-opacity="0.7"/>
+<path d="M400 70V150H436L400 70Z" fill="#1EBEE6"/>
+<path d="M400 70V150H436L400 70Z" fill="white" fill-opacity="0.5"/>
+<circle cx="322" cy="115" r="10" fill="#FF87A0"/>
+</g>
+</svg>

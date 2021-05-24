@@ -1,0 +1,10 @@
+<svg width="1600" height="1414" viewBox="0 0 1600 1414" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1000 1414H400H-200C-200 1082.63 68.6292 814 400 814C731.371 814 1000 1082.63 1000 1414Z" fill="#4664EA"/>
+<path opacity="0.6" d="M1600 1414H1300H1000C1000 1248.31 1134.31 1114 1300 1114C1465.69 1114 1600 1248.31 1600 1414Z" fill="#4664EA"/>
+<circle opacity="0.5" cx="17" cy="600" r="300" fill="#4664EA"/>
+<circle opacity="0.25" cx="1049" cy="1040" r="150" fill="#4664EA"/>
+<circle opacity="0.25" cy="225" r="75" fill="#4664EA"/>
+<circle opacity="0.25" cx="365" cy="740" r="75" fill="#4664EA"/>
+<circle opacity="0.25" cx="112.5" cy="112.5" r="37.5" fill="#4664EA"/>
+<circle opacity="0.25" cx="56.75" cy="19.25" r="18.75" fill="#4664EA"/>
+</svg>
