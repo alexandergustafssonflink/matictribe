@@ -1,17 +1,20 @@
 <template>
   <Home />
   <About />
+  <Clients />
 </template>
 
 <script>
 import Home from "./components/Home.vue"
 import About from "./components/About.vue"
+import Clients from "./components/Clients.vue"
 
 export default {
   name: 'App',
   components: {
     Home,
-    About
+    About,
+    Clients
   }
 }
 </script>
