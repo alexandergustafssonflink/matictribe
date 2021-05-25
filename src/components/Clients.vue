@@ -63,6 +63,9 @@
                 </div>
             </div>
          </div>
+         <div class="btn-section">
+         <button class="main-btn"><i class="fas fa-envelope"></i>get in touch </button> <button class="main-btn"><i class="fas fa-calendar-alt"></i>book a digital coffee </button> 
+         </div>
     <img class="client-squares" src="/images/client-squares.svg" alt="">
     </section>
 
@@ -81,8 +84,9 @@ export default {
 <style scoped>
 #clients {
   background-color:var(--blue);
-  height: 350vh; 
+    padding-bottom: 300px; 
   position: relative;
+
 
 }
 
@@ -96,7 +100,7 @@ h1 {
     font-size: 100px; 
     color: white; 
     font-weight: 700; 
-    padding: 50px 0px 0px 200px; 
+    padding: 50px 0px 0px 200px;
 }
 
 .client {
@@ -200,7 +204,7 @@ h1 {
 .services {
     display: flex; 
     justify-content: space-between;
-    margin-top: 30px; 
+    margin-top: 50px; 
 }
 .services i {
     font-size: 40px; 
@@ -226,5 +230,25 @@ h1 {
     bottom: 0px;
     right: 0px; 
     width: 25%; 
+}
+
+.btn-section {
+    margin: 50px 0px 0px 200px; 
+
+}
+
+.main-btn {
+    border: none; 
+    background-color: #6b83ee; 
+    color: white; 
+    padding: 10px 20px 10px 20px; 
+    font-size: 18px; 
+    font-weight: 700; 
+    margin-right: 15px; 
+
+}
+
+.main-btn i {
+    margin-right: 10px; 
 }
 </style>

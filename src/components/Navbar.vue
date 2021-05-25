@@ -2,7 +2,7 @@
     <nav>
         <ul>
             <li>about </li>
-            <li>cases clients </li>
+            <li>cases & clients </li>
             <li>career </li>
             <li>contact </li>
         </ul>
@@ -24,7 +24,7 @@ export default {
   font-weight: 700;
   position: absolute;
   z-index: 100;
-  margin-left: 200px;
+  margin-left: 200px; 
   width: auto;
 }
 

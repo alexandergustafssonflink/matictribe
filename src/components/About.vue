@@ -54,7 +54,8 @@ export default {
 }
 
 .main {
-  margin: 0px 200px 0px 200px;
+    margin: 0px 200px 0px 200px; 
+  /* margin: 0px 200px 0px 200px; */
   color: white;
   display: flex;
   padding-top: 100px;
@@ -85,7 +86,7 @@ export default {
 }
 
 .lower-main {
-  padding: 50px 50px 100px 150px;
+  padding: 50px 5px 100px 150px;
   width: 100%; 
   display: flex;
   flex-flow: wrap;
