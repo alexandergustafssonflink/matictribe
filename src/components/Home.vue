@@ -39,7 +39,7 @@ export default {
 
 #home .main {
   position: absolute;
-  margin-left: 200px;
+  margin-left: 200px; 
   bottom: 60%;
 }
 
