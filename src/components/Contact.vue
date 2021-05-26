@@ -44,7 +44,7 @@ export default {
     width: 32%; 
 }
 
-#contact h1 {
+h1 {
     font-size: 80px; 
     padding: 100px 0px 0px 200px; 
     color: white; 
@@ -98,7 +98,53 @@ export default {
   font-weight: 700;
 }
 
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 40px; 
+        padding: 50px 0px 0px 30px; 
+    }
 
+    .form-div {
+        padding: 50px 30px 0px 30px; 
+        margin: 0px; 
+        width: auto; 
+    }
+    .contact-form .submit-btn {
+        font-size: 24px !important; 
+    }
+
+    #contact img {
+        width: 100%; 
+        right: 0;
+    }
+
+    #contact {
+        height: 140vh; 
+    }
+    
+}
+
+@media only screen and (min-width: 500px)and (max-width: 799px)  {
+    h1 {
+        padding: 50px 0px 0px 75px; 
+        font-size: 60px; 
+    }
+
+    .form-div {
+        margin-left: 75px; 
+        width: 50%; 
+    }
+
+  #contact img {
+        right: 0px;
+        width: 50%
+    }
+
+  .contact-form  .submit-btn {
+        font-size: 40px !important; 
+        padding-right: 0px; 
+    }
+}
 
 
 

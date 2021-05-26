@@ -3,6 +3,7 @@
      <div class="main">
      <div class="left">
      <h1> about</h1>
+     <img class="squares-mobile" src="/images/squares.svg" />
         <p>
       Open-minded software agency that fancy sleek design and lightweight processes.
       </p>
@@ -14,7 +15,7 @@
       </p>
       </div>
       <div class="right">
-      <img src="../assets/images/squares.svg" />
+      <img class="squares-desktop" src="/images/squares.svg" />
       </div>
       </div>
       <div class="lower-main">
@@ -85,6 +86,10 @@ export default {
     width: 100%; 
 }
 
+.squares-mobile {
+    display: none; 
+}
+
 .lower-main {
   padding: 50px 5px 100px 150px;
   width: 100%; 
@@ -98,5 +103,69 @@ export default {
     bottom: 0px;
     width: 90%; 
 }
+
+@media only screen and (max-width: 799px) {
+    #about {
+        height: auto; 
+    }
+    .main h1 {
+        font-size: 40px; 
+    }
+    .main {
+        margin: 0px 30px 0px 30px; 
+        padding-top: 50px;
+        flex-direction: column-reverse; 
+    }
+
+    .main .left {
+        width: 100%; 
+    }
+    .main .right {
+        width: 100%; 
+    }
+
+    .lower-main {
+        padding: 50px 30px 0px 30px; 
+
+    }
+
+    .people-card {
+        margin: 0px 0px 40px 0px; 
+    }
+
+    .circles {
+        width: auto; 
+        bottom: 0%; 
+    }
+
+    .squares-mobile {
+    display: block; 
+    width: 100%; 
+    padding: 30px 0px 30px 0px;
+}
+  .squares-desktop {
+    display: none; 
+}
+
+
+}
+
+@media only screen and (min-width: 500px)and (max-width: 799px)  {
+ 
+    .main {
+      margin: 50px 75px 0px 75px; 
+    }
+
+    .lower-main {
+      margin: 0px 45px 50px 45px; 
+      
+    }
+
+    .main h1 {
+    font-size: 60px; 
+  }
+
+  }
+
 
 </style>

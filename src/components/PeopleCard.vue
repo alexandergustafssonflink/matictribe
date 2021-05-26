@@ -3,7 +3,7 @@
         <img :src="img">
         <h3 class="name">{{name}} </h3>
         <h3 class="title"> {{title}} </h3>
-        <p> {{email}} </p>
+        <p><a :href="`mailto:${email}`"><i class="far fa-envelope"></i> {{email}} </a></p> 
       </div>
 </template>
 
@@ -28,6 +28,11 @@ export default {
   min-width: 300px;
 }
 
+a{
+  text-decoration: none;
+  color: white; 
+}
+
 .title {
     font-size: 24px; 
     color: white; 
@@ -47,6 +52,10 @@ line-height: 24px;
 p {
     font-weight: bold; 
     color: White; 
+}
+
+.fa-envelope {
+  margin-right: 5px; 
 }
 
 .light-text {

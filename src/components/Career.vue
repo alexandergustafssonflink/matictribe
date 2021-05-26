@@ -1,9 +1,10 @@
   <template>
      <section id="career">   
          <div class="upper-div">
-        <div class="left"><img src="/images/Office.png" alt=""></div>
+        <div class="left"><img class="office-img" src="/images/Office.png" alt=""></div>
         <div class="right">
             <h1>career</h1>
+            <div class="left"><img class="office-mobile-img" src="/images/Office.png" alt=""></div>
             <p class="lead"> We are always on the lookout for new and inspiring talent, please send us a mail or book a video call and we’ll see what we can do together. </p>
              <div class="btn-section">
          <button class="main-btn"><i class="fas fa-envelope"></i>get in touch </button> <button class="main-btn"><i class="fas fa-calendar-alt"></i>book a digital coffee </button> 
@@ -106,6 +107,10 @@ h2 {
     padding-bottom: 100px; 
 }
 
+.job {
+    margin: 15px;
+}
+
 .job-header {
     position:relative; 
     height: 150px; 
@@ -126,4 +131,81 @@ h3 {
     right: 45%; 
     font-size: 24px;
 }
+
+   .office-img {
+       
+       display: block; 
+    }
+
+    .office-mobile-img {
+      
+         display: none; 
+    }
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 40px; 
+    }
+    .upper-div {
+        padding: 50px 30px 0px 30px; 
+        flex-direction: column; 
+    }
+    .right {
+        width: 100%; 
+    }
+    .left {
+        width: 100%; 
+    }
+
+    .lower-div {
+        padding: 50px 30px 0px 30px; 
+    }
+
+    .job-section {
+        flex-direction: column;
+        padding-bottom: 50px; 
+    }
+
+    .job {
+        margin: 0px 0px 50px 0px; 
+    }
+
+    .office-img {
+        display: none; 
+    }
+
+    .office-mobile-img {
+        display: block; 
+        padding: 30px 0px 30px 0px;
+    }
+
+    .btn-section {
+        margin-top: 30px; 
+    }
+
+    .main-btn {
+        margin-top: 10px; 
+    }
+}
+
+@media only screen and (min-width: 500px)and (max-width: 799px)  {
+    .upper-div {
+        padding: 50px 75px 50px 75px; 
+    }
+
+    .right h1 {
+        font-size: 60px; 
+    }
+    .btn-section :nth-child(2) {
+        margin-top: 15px; 
+    }
+
+    .lower-div {
+        padding: 50px 75px 0px 75px; 
+    }
+    .job h3 {
+        right: 0%; 
+    }
+}
+
 </style>
