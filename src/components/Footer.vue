@@ -7,6 +7,11 @@
             hello@matictribe.com
             </p>
         </div>
+        <div class="social">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
 
      </div>
 </template>
@@ -24,10 +29,21 @@ export default {
 
 <style scoped>
 .footer {
-height: 250px;
+height: 300px;
 background-color: var(--bluegray);
+display: flex; 
+justify-content: space-between;
 }
 
+.social {
+    margin:50px 200px 0px 0px;
+}
+
+.social i {
+    font-size: 36px;
+    color: white; 
+    margin: 16px; 
+}
 
 .contact-card {
     color: white; 
@@ -43,6 +59,31 @@ p {
     font-size: 14px; 
 }
 
+@media only screen and (max-width: 500px) {
+    .footer {
+        flex-direction: column;
+        justify-content: unset;
+    }
+    .social {
+        margin: 30px 30px 0px 15px; ; 
+    }
+    .contact-card  {
+
+        padding: 50px 30px 0px 30px; 
+    }
+}
+
+@media only screen and (min-width: 500px)and (max-width: 799px)  {
+ 
+    .contact-card {
+        padding: 50px 0px 0px 75px; 
+        
+    }
+
+    .social {
+        margin-right: 75px; 
+    }
+}
 
 
 

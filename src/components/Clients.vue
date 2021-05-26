@@ -251,4 +251,79 @@ h1 {
 .main-btn i {
     margin-right: 10px; 
 }
+
+
+@media only screen and (max-width: 799px) {
+.main {
+    padding: 0px 30px 0px 30px; 
+    flex-direction: column;
+}
+h1 {
+    padding: 30px 30px 0px 30px; 
+    font-size: 40px; 
+    
+}
+
+.client h3 {
+    font-size: 40px; 
+    margin-top: 30px; 
+}
+
+.lower{
+    padding: 50px 30px 0px 30px; 
+}
+
+.lower h3  {
+    width: 100%; 
+    font-size: 36px; 
+    letter-spacing: -2px;
+}
+
+.services {
+    flex-direction: column;
+}
+
+.services div {
+    margin-bottom: 50px; 
+}
+
+.btn-section {
+    margin: 30px 30px 0px 30px; 
+}
+
+.main-btn {
+    margin-bottom: 15px; 
+}
+
+.client-squares {
+    width: 75%; 
+}
+}
+
+
+@media only screen and (min-width: 500px)and (max-width: 799px)  {
+    h1 {
+        margin-left: 45px; 
+        font-size: 60px; 
+    }
+    .main {
+        margin: 0px 45px 0px 45px; 
+    }
+
+    .lower{
+        margin: 0px 45px 0px 45px; 
+    }
+
+    .services {
+        flex-flow: wrap;
+    }
+
+    .client-squares {
+        width: 40%; 
+    }
+
+    .btn-section {
+        margin-left: 75px; 
+    }
+}
 </style>
