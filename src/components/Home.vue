@@ -4,7 +4,7 @@
      <img class="triangles-upper" src="/images/upper-triangles.png" />
      <img class="triangles-bottom" src="/images/bottom-triangles.png" />
      <div class="main">
-      <h1> [] matic tribe</h1>
+      <h1 data-aos="zoom-in"> [] matic tribe</h1>
       <p> a pragmatic, transparent, get-it-done enabler of digital products and services. </p>
       </div>
    
