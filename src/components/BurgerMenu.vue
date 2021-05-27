@@ -30,7 +30,7 @@ export default {
 
 <style>
 .bm-burger-button {
-    z-index: 1000; 
+    z-index: 500; 
       position: fixed !important;
       width: 36px;
       height: 30px;

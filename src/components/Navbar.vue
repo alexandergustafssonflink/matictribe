@@ -26,6 +26,7 @@ export default {
   z-index: 100;
   margin-left: 200px; 
   width: auto;
+  overflow: hidden;
 }
 
 nav ul {
@@ -36,10 +37,20 @@ nav ul {
 }
 nav li {
   padding: 20px 30px 0px 0px;
+  
 }
  a{
    text-decoration: none;
-   color: var(--turq)
+   color: var(--turq); 
+  -webkit-transition: all 0.2s ease-in;
+-moz-transition: all 0.2s ease-in;
+-o-transition: all 0.2s ease-in;
+transition: all 0.2s ease-in;
+   
+ }
+
+ a:hover {
+   color: var(--bluegray);
  }
 
 @media only screen and (max-width: 799px) {
