@@ -3,7 +3,7 @@
      <div class="main">
      <div class="left">
      <h1> about</h1>
-     <img class="squares-mobile" src="/images/squares.svg" />
+     <img class="squares-mobile zoom-in-right" src="/images/squares.svg"  />
         <p>
       Open-minded software agency that fancy sleek design and lightweight processes.
       </p>
@@ -15,7 +15,7 @@
       </p>
       </div>
       <div class="right">
-      <img class="squares-desktop" src="/images/squares.svg" />
+      <img class="squares-desktop" data-aos="fade-in-right" src="/images/squares.svg" />
       </div>
       </div>
       <div class="lower-main">

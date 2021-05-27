@@ -5,7 +5,7 @@
              <div class="left"> 
         <div class="white client">
             <h3>white</h3>
-            <div>
+            <div data-aos="flip-right">
                 <img src="/images/white.png" alt="">
                 <p class="desc"> Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Organically grow the holistic world view of innovation via workplace diversity and empowerment.</p>
             </div>
@@ -13,7 +13,7 @@
         </div>
         <div class="neverbin client">
             <h3>neverbin</h3>
-            <div>
+            <div data-aos="flip-right">
                 <img src="/images/neverbin.png" alt="">
                 <p class="desc"> Neverbin WasteTracker® is a super easy cloud-based service that gives you full control over all products that soon will expire. No integration is needed and it works on all mobile devices. The results vary among stores but store managers state that they spend 50% less personnel on checking expiry dates and they decrease related food waste with 40%. It’s a win-win situation for the grocery store and the environment.</p>
             </div>
@@ -24,7 +24,7 @@
         <div class="right">
               <div class="polestar client">
             <h3>polestar</h3>
-            <div>
+            <div data-aos="flip-left">
                 <img src="/images/polestar.png" alt="">
                 <p class="desc"> Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. </p>
             </div>
@@ -33,7 +33,7 @@
          
          <div class="teslajournalen client">
             <h3>teslajournalen</h3>
-            <div>
+            <div data-aos="flip-left">
                 <img src="/images/teslajournalen.png" alt="">
                 <p class="desc"> Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
             </div>
@@ -64,9 +64,10 @@
             </div>
          </div>
          <div class="btn-section">
-         <button class="main-btn"><i class="fas fa-envelope"></i>get in touch </button> <button class="main-btn"><i class="fas fa-calendar-alt"></i>book a digital coffee </button> 
+             <a href="#contact"><button class="main-btn"><i class="fas fa-envelope"></i>get in touch </button></a>
+         <a href="#contact"><button class="main-btn"><i class="fas fa-calendar-alt"></i>book a digital coffee </button> </a> 
          </div>
-    <img class="client-squares" src="/images/client-squares.svg" alt="">
+    <img class="client-squares" data-aos="fade-left" src="/images/client-squares.svg" alt="">
     </section>
 
 </template>
@@ -245,6 +246,7 @@ h1 {
     font-size: 18px; 
     font-weight: 700; 
     margin-right: 15px; 
+    cursor: pointer
 
 }
 

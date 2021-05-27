@@ -1,6 +1,6 @@
   <template>
      <section id="contact">   
-         <h1> Contact </h1>
+         <h1 data-aos="fade-right"> Contact </h1>
         <div className="form-div">
       <form action="/email" className="contact-form" method="get">
       <label for="email">Mail</label>
@@ -15,7 +15,7 @@
       </form>
     </div>
 
-    <img src="/images/contact-image.svg" alt="">
+    <img src="/images/contact-image.svg" data-aos="fade-left" alt="">
 
      </section>
 </template>
