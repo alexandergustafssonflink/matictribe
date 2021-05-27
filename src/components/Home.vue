@@ -1,10 +1,13 @@
   <template>
      <section id="home">
          <Navbar />
-     <img class="triangles-upper" src="/images/upper-triangles.png" />
-     <img class="triangles-bottom" src="/images/bottom-triangles.png" />
+     <img alt="triangles" class="triangles-upper" src="/images/upper-triangles.png" />
+     <img alt="triangles" class="triangles-bottom" src="/images/bottom-triangles.png" />
      <div class="main">
-      <h1 data-aos="zoom-in"> [] matic tribe</h1>
+     
+      <LottieAnimation 
+    path="./animations/MTLogo.json"
+/>
       <p> a pragmatic, transparent, get-it-done enabler of digital products and services. </p>
       </div>
    
@@ -13,12 +16,14 @@
 
 <script>
 import Navbar from "./Navbar.vue"
+import LottieAnimation from "lottie-vuejs/src/LottieAnimation.vue"
 export default {
   name: 'Home',
   props: {
   },
   components: {
       Navbar,
+      LottieAnimation
   }
 }
 </script>
@@ -63,6 +68,8 @@ export default {
   width: 35em; 
 }
 
+
+
 @media only screen and (max-width: 500px) {
   #home .triangles-upper {
     right: -70%; 
@@ -81,6 +88,17 @@ export default {
 
   h1 {
     font-size: 36px; 
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .triangles-bottom {
+    width: 820px;
+    right: -120%;  
+  }
+
+  .main {
+    bottom:40%; 
   }
 }
 

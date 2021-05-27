@@ -3,7 +3,11 @@
      <div class="main">
      <div class="left">
      <h1> about</h1>
-     <img class="squares-mobile zoom-in-right" src="/images/squares.svg"  />
+     <!-- <img class="squares-mobile zoom-in-right" src="/images/squares.svg"  /> -->
+          <LottieAnimation 
+    path="./animations/MTAbout.json"
+    class="squares-mobile"
+/>
         <p>
       Open-minded software agency that fancy sleek design and lightweight processes.
       </p>
@@ -15,7 +19,11 @@
       </p>
       </div>
       <div class="right">
-      <img class="squares-desktop" data-aos="fade-in-right" src="/images/squares.svg" />
+      <!-- <img class="squares-desktop" data-aos="fade-in-right" src="/images/squares.svg" /> -->
+               <LottieAnimation 
+    path="./animations/MTAbout.json"
+    class="squares-desktop"
+/>
       </div>
       </div>
       <div class="lower-main">
@@ -26,12 +34,13 @@
         <PeopleCard name="markus barett" email="markus@matictribe.com" title="fullstack developer" img="/images/markus.png" />
      
       </div>
-    <img class="circles" src="/images/circles.svg" />
+    <img class="circles" alt="image of circles" src="/images/circles.svg" />
     </section>
 </template>
 
 <script>
 import PeopleCard from "./PeopleCard.vue"
+import LottieAnimation from "lottie-vuejs/src/LottieAnimation.vue"
 
 export default {
   name: 'About',
@@ -39,6 +48,7 @@ export default {
   },
    components: {
      PeopleCard,
+     LottieAnimation
   },
 
 }

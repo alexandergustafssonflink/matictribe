@@ -1,6 +1,6 @@
   <template>
       <div class="people-card">
-        <img data-aos="zoom-in" :src="img">
+        <img :alt="name" data-aos="zoom-in" :src="img">
         <h3 class="name">{{name}} </h3>
         <h3 class="title"> {{title}} </h3>
         <p><a :href="`mailto:${email}`"><i class="far fa-envelope"></i> {{email}} </a></p> 

@@ -15,7 +15,7 @@
       </form>
     </div>
 
-    <img src="/images/contact-image.svg" data-aos="fade-left" alt="">
+    <img alt="squares" src="/images/contact-image.svg" data-aos="fade-left">
 
      </section>
 </template>
@@ -114,7 +114,7 @@ h1 {
     }
 
     #contact img {
-        width: 100%; 
+        width: 90%; 
         right: 0;
     }
 
