@@ -1,24 +1,7 @@
-# matic
+# matic tribe
 
-## Project setup
-```
-npm install
-```
+<img src="https://media.giphy.com/media/ohONS2y8GTDoI/giphy.gif" width="100%">
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Site made for my hacker mates at Matic Tribe. 
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Visit the site @ https://matictribe.com
