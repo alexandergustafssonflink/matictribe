@@ -4,4 +4,4 @@
 
 Site made for my hacker mates at Matic Tribe. 
 
-Visit the site @ https://matictribe.com
+Visit the site @ https://www.matictribe.com
